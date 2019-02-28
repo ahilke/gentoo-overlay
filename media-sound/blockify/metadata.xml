@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>arno.hilke@tum.de</email>
+	</maintainer>
+	<longdescription lang="en">
+		Automatically mute songs and advertisements in Spotify
+	</longdescription>
+	<use>
+		<flag name="cli">Provides a command-line interface for blockify and blockify-ui.</flag>
+	</use>
+</pkgmetadata>
