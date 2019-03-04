@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <maintainer type="person">
+        <email>arno.hilke@tum.de</email>
+    </maintainer>
+    <longdescription lang="en">
+        Grassroots DiCoM is C++ Library for DICOM medical files accessible from Python, C#, Java, and PHP.
+    </longdescription>
+    <use>
+        <flag name="vtk">Add support for VTK</flag>
+    </use>
+</pkgmetadata>
