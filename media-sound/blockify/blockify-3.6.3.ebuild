@@ -11,7 +11,7 @@ SRC_URI="https://github.com/serialoverflow/blockify/archive/v${PV}.tar.gz"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="pulseaudio gstreamer cli"
+IUSE="cli gstreamer pulseaudio"
 
 DEPEND="
 	dev-lang/python:*
@@ -26,3 +26,5 @@ DEPEND="
 "
 RDEPEND="${DEPEND}"
 BDEPEND="${DEPEND}"
+
+REQUIRED_USE="gstreamer? ( pulseaudio )"

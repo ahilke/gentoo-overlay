@@ -9,5 +9,7 @@
 	</longdescription>
 	<use>
 		<flag name="cli">Provides a command-line interface for blockify and blockify-ui.</flag>
+		<flag name="gstreamer">Allows to play music of your choice during muted ads. Requires pulseaudio.</flag>
+		<flag name="pulseaudio">Allows muting Spotify instead of all system sound.</flag>
 	</use>
 </pkgmetadata>
